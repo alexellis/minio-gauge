@@ -1,5 +1,7 @@
 # minio-gauge
-A Minio pressure gauge with the Raspberry Pi and Blinkt! from Pimoroni, see in real-time how busy your cloud storage is.
+A Minio pressure gauge with the Raspberry Pi and Blinkt! from Pimoroni, see in real-time how busy your S3 cloud storage is.
+
+You can run Minio on the cloud, on premesis or even on a Raspberry Pi, just configure the webhooks to fire into the Raspberry Pi. That way it can track the activity in Redis (low latency) and then display the colours as things ramp up.
 
 This project runs under Docker and has three components:
 
